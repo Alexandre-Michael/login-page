@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="hero is-fullheight">
+        <div class="hero-body">
+            <section class="container has-text-centered">
+                <div class="column is-8 is-offset-2 box-title-login">
+                    <h1 class="title is-2">Login</h1>
+                    <hr class="login-hr has-background-white">
+                    <p class="subtitle is-4 is-white">Acesse sua conta</p>
+                </div>
+                <div class="box">
+                    <form>
+                        <div class="field">
+                            <label class="label is-size-4">Usuário</label>
+                            <div class="control has-icons-left">
+                                <input name="username" class="input is-medium" type="text" placeholder="Nome de usuário">
+                                <span class="icon is-small is-left">
+                                    <i>
+                                        <img src="static/images/icon-user.svg" alt="User Icon">
+                                    </i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label is-size-4">Senha</label>
+                            <div class="control has-icons-left">
+                                <input name="password" class="input is-medium" type="password" placeholder="Senha">
+                                <span class="icon is-small is-left">
+                                    <i>
+                                        <img src="static/images/icon-password.svg" alt="">
+                                    </i>
+                                </span>
+                            </div>
+                        </div>
+                        <button type="submit" class="button is-block is-large is-fullwidth button-login has-background-danger">Login</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
